@@ -5,7 +5,6 @@ $(function() {
 
 	// Get the messages div.
 	var formMessages = $('.form-message');
-
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.

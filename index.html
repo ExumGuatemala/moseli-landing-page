@@ -866,7 +866,9 @@
                     <div class="contact-wrapper form-style-two pt-115">
                         <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
                         
-                        <form id="contact-form" action="assets/contact.php" method="post">
+                        <form id="contact-form" action="https://formsubmit.co/ec92260e96456e0fe247a306e126dfc3" method="POST">
+                        <!-- action="">  -->
+                            <!-- onsubmit="sendEmail();"> -->
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
@@ -888,17 +890,19 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-input mt-25">
-                                        <label>Massage</label>
+                                        <label>Message</label>
                                         <div class="input-items default">
-                                            <textarea name="massage" placeholder="Massage"></textarea>
+                                            <textarea name="massage" placeholder="Message"></textarea>
                                             <i class="lni lni-pencil-alt"></i>
                                         </div>
                                     </div> <!-- form input -->
+                                    <input type="hidden" name="_next" value="https://google.com">
+                                    <input type="hidden" name="_captcha" value="false">
                                 </div>
                                 <p class="form-message"></p>
                                 <div class="col-md-12">
                                     <div class="form-input light-rounded-buttons mt-30">
-                                        <button class="main-btn light-rounded-two">Send Message</button>
+                                        <button class="main-btn light-rounded-two"  type="submit">Send Message</button>
                                     </div> <!-- form input -->
                                 </div>
                             </div> <!-- row -->
@@ -980,7 +984,7 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     
     <!--====== Ajax Contact js ======-->
-    <script src="assets/js/ajax-contact.js"></script>
+    <!-- <script src="assets/js/ajax-contact.js"></script> -->
     
     <!--====== Isotope js ======-->
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
